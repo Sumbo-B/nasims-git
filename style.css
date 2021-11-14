@@ -1,0 +1,135 @@
+/* GENERAL STYLING */
+
+* {
+  font-family: "Apercu", sans-serif;
+}
+#anchor-green {
+  color: #2b8854;
+  text-decoration: none;
+}
+
+/* NAVBAR STYLING */
+
+.navbar {
+  background-color: #ffffff;
+}
+
+#button {
+  background-color: #2b8854;
+  border: none;
+  color: #fff;
+  padding: 15px 70px;
+  margin-left: 10px;
+}
+
+.navbar {
+  font-family: apercu, sans-serif;
+  background-color: #ffffff;
+  padding: 25px 25px;
+}
+
+#nav-brand {
+  width: 38rem;
+  font-family: sans-serif;
+  font-size: 19px;
+  line-height: 21.12px;
+  background-color: #ffffff;
+}
+
+#navbarNav {
+  /* margin-right: 400px; */
+  position: relative;
+  width: 100%;
+  z-index: 9999;
+}
+
+#menu {
+  width: 50%;
+  padding: 20px 10px;
+  background-color: #ffffff;
+  position: absolute;
+  right: 5px;
+  overflow: hidden;
+}
+
+/*STYLING THE CAROUSEL */
+
+#carousel-container-one {
+  background-color: #f2fcf8;
+  }
+
+#carousel-text-one img {
+  margin: 0;
+  padding: 0;
+  border-radius: 50%;
+}
+
+#carousel-container-two {
+  background-color: #fcf3f1;
+}
+
+#carousel-text-two img {
+  margin: 0;
+  padding: 0;
+  border-radius: 50%;
+} 
+
+#carousel-container-three {
+  background-color: #fffcf6;
+}
+#carousel-text-three img {
+  margin: 0;
+  padding: 0;
+  border-radius: 50%;
+} 
+
+
+
+/* STYLING THE NASIMS ARTICLE GRID */
+#article-container {
+  background-color: #f7f7f7;
+  padding-bottom: 5rem;
+}
+
+#grid-image-one {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  padding-right: 10rem;
+}
+
+#grid-text {
+  padding-top: 12rem;
+  padding-left: 2rem;
+}
+#grid-text-two {
+  padding-right: 5rem;
+  padding-top: 10rem;
+}
+
+/* STYLING THE FOOTER */
+
+#footer-container {
+  background-color: #08311b;
+}
+
+/* STYLING FOR MOBILE */
+
+@media screen and (max-width: 992px){
+  #carousel-container-one {
+    background-image: "/Asset/carousel_image-1.jpeg";
+    color: #fff;  
+  }
+  #carousel-container-two {
+    background-image: "/Asset/carousel_image_2.jpeg";
+    color: #fff
+  }
+  #carousel-container-three {
+    background-image: "/Asset/carousel_image_3.jpeg";
+    color: #fff;
+  }
+
+  #carousel-text-one {
+    align-items: center;
+  }
+} 
+
